@@ -35,4 +35,21 @@ font-size: 1.25rem;
 color: var(--accent-blue);
 letter-spacing: 1px;
 }
+.topbar {
+background-color: var(--bg-card);
+border-bottom: 1px solid var(--border-color);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 2rem;}
+
+.topbar {
+    background-color: var(--bg-card);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 60px;
+}
 
