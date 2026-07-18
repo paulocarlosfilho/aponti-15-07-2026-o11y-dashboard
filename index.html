@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<title>O11y Dashboard</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O11y Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="app-layout">
-  <header class="topbar">
-  </header>
-  <aside class="sidebar">
-    <div class="brand">
-      <span class="brand-icon">⚡</span>
-        <h1>O11y-Dash</h1>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <span>⚡</span>
+                <h1>O11y-Dash</h1>
+            </div>
+            <nav class="menu"> 
+                <a href="#" class="active">Visão Geral</a> 
+                <a href="#">Métricas</a> 
+                <a href="#">Logs de Rede</a> 
+                <a href="#">Alertas</a> 
+                <a href="#">Configurações</a> 
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div class="search-box"> 
+                    <input type="text" placeholder="Buscar métricas, nós ou logs..."> 
+                </div> 
+                <div class="user-profile"> 
+                    <div class="avatar">Admin</div> 
+                </div> 
+            </header>
+        </main>
     </div>
-    <nav class="menu"> 
-      <a href="#" class="active">Visão Geral</a> 
-      <a href="#">Métricas</a> 
-      <a href="#">Logs de Rede</a> 
-      <a href="#">Alertas</a> 
-      <a href="#">Configurações</a> 
-    </nav>
-  </aside>
-</div>
 </body>
 </html>
